@@ -7,6 +7,6 @@ const myfonc = () => {
     return "Test ok : " + coco;
 }
 
-export default myfonc;
+export default myfonc
 console.log('Hors my fonc', myfonc());
 document.write("Je debute avec Webpack !" + myfonc());
