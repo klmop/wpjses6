@@ -1,0 +1,34 @@
+{
+  "name": "blkasup",
+  "version": "1.0.0",
+  "description": "entrainement",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "webpack-dashboard webpack-dev-server -d --hot --config webpack.config.js --watch",
+    "watch": "webpack --watch",
+    "babel": "babel",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "moi",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "autoprefixer": "^9.6.1",
+    "babel-loader": "^8.0.6",
+    "css-hot-loader": "^1.4.4",
+    "css-loader": "^3.2.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "node-sass": "^4.12.0",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.3.1",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7",
+    "webpack-dashboard": "^3.1.0",
+    "webpack-dev-server": "^3.8.0"
+  },
+  "dependencies": {
+    "esm": "^3.2.25"
+  }
+}
